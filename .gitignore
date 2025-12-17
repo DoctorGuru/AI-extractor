@@ -1,0 +1,51 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----------------------------
+# Flask / Web
+# ----------------------------
+instance/
+.webassets-cache
+*.sqlite
+*.db
+
+# ----------------------------
+# Output / OCR / Data
+# ----------------------------
+output/
+*.json
+*.txt
+*.csv
+
+# ----------------------------
+# IDEs and editors
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------
+# OS-specific
+# ----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
