@@ -46,28 +46,13 @@ The solution:
   "leaflet2.jpg": [{"name": "BLACK BEANS", "price": "600"}]
 }
 
-## Web Application Interface
+## Web Application interface
+- It uses flask simply because it is simple and lightweight
 
-**Framework:** Flask
-
-**Features:**
-
-- Displays all products from all leaflets in a table.
-- Each row is clickable to simulate product selection.
-- Selected products are saved to `selected_product.json`.
-- Provides REST API endpoint `/api/products` to access JSON product data.
-- Simple and extendable interface for filtering, sorting, or additional features.
-
-**Template:**
-
-- HTML template (`templates/index.html`) renders the product table.
-- JavaScript handles row clicks and POST requests to `/select_product`.
-- Provides immediate visual feedback for selected products.
-
-## Generate OCR & JSON
+## OCR & JSON
 - python app.py
 
-## Run Web Interface
+## Frontend
 - python web_app.py
 
 
